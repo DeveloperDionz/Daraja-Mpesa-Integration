@@ -26,7 +26,7 @@ app.use(express.urlencoded({ extended: true}));
 app.use(cors());
 
 app.get("/", (req, res) => {
-    res.send("<h1>Hello World!</h1>");
+    res.send("<h1>Mpesa Integration using daraja API.</h1>");
 });
 
 /*app.get("/token", (req, res) => {
